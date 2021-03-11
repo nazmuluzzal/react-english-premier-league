@@ -7,7 +7,7 @@
 - Dynamic Routing
 - Get data of Each Football Team dyamically
 - Responsive for Mobile Device
-- Each Team Officail Social Media Account
+- Each Team Official Social Media Account
 - Anyone can know the history of every Team from the description
 
 Live Site - [React English Premier League](https://react-english-premier-league.netlify.app/)
