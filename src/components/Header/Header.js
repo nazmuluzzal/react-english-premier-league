@@ -6,7 +6,7 @@ const Header = (props) => {
   const { strTeamBadge } = props.team;
   let logo;
   if (strTeamBadge === undefined) {
-    logo = <h1>English Premier League</h1>;
+    logo = <h2>English Premier League</h2>;
   } else {
     logo = <img src={strTeamBadge} alt="" />;
   }
