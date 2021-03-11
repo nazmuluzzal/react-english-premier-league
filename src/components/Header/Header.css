@@ -1,0 +1,20 @@
+.header-container {
+  position: relative;
+  text-align: center;
+  color: #0a0404;
+  /* #0a0404; */
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.center img {
+  width: 50%;
+  height: auto;
+}
+.header-container img {
+  height: auto;
+  max-width: 100%;
+}

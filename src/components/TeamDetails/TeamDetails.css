@@ -1,0 +1,31 @@
+.team-info-div {
+  /* #fc4d57 */
+  background-color: #ff2e63;
+  color: white;
+  border-radius: 20px;
+  margin: 30px;
+  padding: 30px;
+}
+
+.team-description {
+  margin: 30px;
+  color: lightgrey;
+  text-align: justify;
+}
+.icon-img {
+  margin-left: 40px;
+}
+.icon-img img {
+  width: 40px;
+  padding-right: 10px;
+}
+.icon-img h1,
+h5 {
+  text-align: left;
+  margin-left: 20px;
+}
+.gender-img img {
+  max-width: 100%;
+  height: auto;
+  padding: 20px;
+}

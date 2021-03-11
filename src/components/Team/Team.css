@@ -1,0 +1,12 @@
+.each-team-div {
+  margin: 16px;
+  padding: 16px;
+  height: 370px;
+  width: 328px;
+  border-radius: 16px;
+  background-color: lightgrey;
+}
+.each-team-div img {
+  width: 152px;
+  height: 152px;
+}
