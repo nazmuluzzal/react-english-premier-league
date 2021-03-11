@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Header from "../Header/Header";
 import Team from "../Team/Team";
+import banner from "../../Photo/epl-img-bg2.png";
 import "./Home.css";
 
 const Home = () => {
@@ -14,7 +15,12 @@ const Home = () => {
   }, []);
   return (
     <div>
-      <Header team={teams}></Header>
+      <Header
+        haslogo={false}
+        hasbanner={false}
+        banner={banner}
+        team={teams}
+      ></Header>
       <div className="team-container">
         {teams.map((team) => (
           <Team key={team.idTeam} team={team}></Team>

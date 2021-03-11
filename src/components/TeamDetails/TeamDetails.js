@@ -31,6 +31,8 @@ const TeamDetails = () => {
     strGender,
     strStadiumDescription,
     strDescriptionEN,
+    strStadiumThumb,
+    strTeamBadge,
   } = team;
   //
   let gender;
@@ -42,7 +44,12 @@ const TeamDetails = () => {
 
   return (
     <div>
-      <Header team={team}></Header>
+      <Header
+        haslogo={true}
+        hasbanner={true}
+        dynamicBanner={strStadiumThumb}
+        logo={strTeamBadge}
+      ></Header>
       <div className="team-container">
         <div className="container-fluid team-info-div">
           <div className="row justify-content-center align-items-center">
