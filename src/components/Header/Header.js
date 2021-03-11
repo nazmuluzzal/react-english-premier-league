@@ -3,12 +3,6 @@ import "./Header.css";
 
 const Header = (props) => {
   const { haslogo, hasbanner, banner, dynamicBanner, logo } = props;
-
-  // if (strTeamBadge === undefined) {
-  //   logo = <h2>English Premier League</h2>;
-  // } else {
-  //   logo = ;
-  // }
   const bannerStyle = {
     backgroundImage: hasbanner ? `url(${dynamicBanner})` : `url(${banner})`,
   };
